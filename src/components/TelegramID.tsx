@@ -1,7 +1,7 @@
 // import axios from "axios";
 // import { useEffect } from "react";
 
-// const TELEGRAM_BOT_TOKEN = "7177787994:AAFjuOmkRxzlQElt4xDRFLjG61Bi6DBQUP4";
+// const TELEGRAM_BOT_TOKEN = "insert here";
 
 // export const TelegramID = () => {
 //   useEffect(() => {
