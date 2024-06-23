@@ -11,6 +11,13 @@ export default {
         large: "1440px",
         // => @media (min-width: 1280px)
       },
+      width: {
+        22: "88px",
+      },
+      boxShadow: {
+        small: "0 20px 60px rgba(51, 47, 101, 0.9)",
+        big: "0 20px 60px rgba(51, 47, 101, 0.9)",
+      },
     },
   },
   plugins: [],

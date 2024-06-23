@@ -40,7 +40,7 @@ export const Home = () => {
           </p>
         </div>
         {!isDesktop && <Form />}
-        <ul className="grid grid-cols-1 justify-center gap-5 text-xs mt-8 mb-10 mx-auto max-w-3xl md:grid-cols-2 large:grid-cols-1">
+        <ul className="flex flex-col justify-center gap-5 text-xs mt-8 mb-10 mx-auto max-w-3xl md:flex-row large:flex-col-reverse">
           <li className="flex justify-center large:justify-start gap-4">
             <div>
               <img src="/images/gift.png" alt="gift" className="w-11 h-11" />
