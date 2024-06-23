@@ -32,7 +32,7 @@
     width: 400px;
     height: 400px;
     top: -100px;
-    left: -100px;
+    left: 0;
     background: radial-gradient(circle, rgba(87, 53, 255, 0.356), transparent);
   }
 
@@ -40,7 +40,7 @@
     width: 600px;
     height: 600px;
     top: -200px;
-    right: -200px;
+    right: 0;
     background: radial-gradient(circle, rgba(87, 53, 255, 0.505), transparent);
   }
 }

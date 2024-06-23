@@ -51,8 +51,6 @@ export const HomePage = () => {
             ellipseClassName="bg-sky-500 -right-3 top-12 w-[6px] h-[6px]"
             imageClassName="w-16 h-16"
           />
-          {/* <div className="w-20 h-20 bg-transparent border-none absolute top-5 left-10 shadow-small"></div>
-          <div className="w-20 h-20 bg-transparent border-none absolute top-10 right-2 shadow-big"></div> */}
         </>
       )}
     </>
