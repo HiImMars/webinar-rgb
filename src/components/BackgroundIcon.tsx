@@ -1,11 +1,11 @@
 import { FC } from "react";
 
 interface Props {
-  src: string;
-  alt: string;
   containerClassName?: string;
   ellipseClassName?: string;
   imageClassName?: string;
+  src: string;
+  alt: string;
 }
 
 export const BackgroundIcon: FC<Props> = ({

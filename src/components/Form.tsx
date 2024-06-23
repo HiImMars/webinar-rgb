@@ -15,16 +15,24 @@ export const Form = () => {
     register,
     handleSubmit,
     setValue,
+    reset,
     formState: { errors },
   } = useForm<Inputs>();
 
   const isTabletOrDesktop = useMediaQuery("(min-width: 768px)");
 
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
-    console.log(data);
-
     const message = `Name: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email}`;
     await sendMessageToTelegram(message);
+
+    reset();
+    setValue("phone", "");
+    const phoneInputElement = document.querySelector(
+      ".react-tel-input .form-control"
+    ) as HTMLInputElement;
+    if (phoneInputElement) {
+      phoneInputElement.value = "";
+    }
   };
 
   return (
@@ -37,7 +45,6 @@ export const Form = () => {
         Запишитесь <span className="text-redAccent">бесплатно</span> и получите
         подарок
       </p>
-      {/* register your input into the hook by invoking the "register" function */}
       <input
         className="bg-inputBg rounded p-3"
         placeholder="Ваше имя и фамилия"

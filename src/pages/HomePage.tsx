@@ -22,7 +22,6 @@ export const HomePage = () => {
             ellipseClassName="bg-orange-500 w-2 h-2"
             imageClassName="w-22 h-22"
           />
-
           <BackgroundIcon
             src="/images/css.png"
             alt="css"
